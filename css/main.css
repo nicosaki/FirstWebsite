@@ -146,22 +146,53 @@ PAGE: Portfolio
 ******************************/
 
 
-#welcomepg {
-  padding: 0;
+ul.welcomepg {
+  padding: 0 .5em 0 0;
+  margin: 0;
   list-style: none;
+  text-align: center;
 }
 
-#welcomepg li {
- float: left;
+
+ul.welcomepg li {
+ display: inline-block;
  width: 30%;
- margin: -15px 3.5%;
+ margin: -20px .5em 0;
  background-color: #f5f5f5;
  color: #bdc3c7;
 }
 
-#welcomepg li:nth-child(2){
+ul.welcomepg li:nth-child(2){
   width: 18.2%;
 }
+
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  padding: 0 .5em 0 0;
+  margin: -3em 0 3em 0;
+  list-style: none;
+  text-align: center;
+  font-size: 1em;
+  opacity: 0;
+}
+
+span.text-content li:nth-child(2){
+  width: 18.2%;
+}
+
+ul.welcomepg li:hover span.text-content {
+  opacity: 1;
+}
+
+span.text-content span{
+  display: table-cell;
+  text-align: center;
+  vertical align: middle;
+}
+
 
 
 /******************************

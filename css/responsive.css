@@ -1,7 +1,18 @@
 @media screen and (min-width: 480px) {
   /******************************
+Portfolio
+  ******************************/
+
+
+  span.text-content {
+    font-size: 1.5em;
+  }
+
+
+  /******************************
 TWO COLUMN LAYOUT
   ******************************/
+
 
   #primary {
     width: 50%;
@@ -76,5 +87,15 @@ TWO COLUMN LAYOUT
   header {
     border-bottom: 5px solid #00919d;
     margin-bottom: 63px;
+  }
+
+
+/******************************
+Portfolio
+******************************/
+
+
+  span.text-content {
+    font-size: 2.5em;
   }
 }
