@@ -167,7 +167,6 @@ ul.welcomepg li:nth-child(2){
 }
 
 span.text-content {
-  background: rgba(0,0,0,0.5);
   color: white;
   cursor: pointer;
   display: table;
@@ -177,6 +176,10 @@ span.text-content {
   text-align: center;
   font-size: 1em;
   opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
 }
 
 span.text-content li:nth-child(2){
